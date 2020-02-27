@@ -1,0 +1,30 @@
+{
+    "title": "Aikido-Nantes Web Site",
+    "name": "aikido-nantes-www",
+    "version": "2.0.0",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "homepage": "https://aikido-nantes.org",
+    "bugs": {
+        "url": "https://github.com/gregoiredupe/aikido-nantes/issues",
+        "email": "contact@aikido-nantes.org"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gregoiredupe/aikido-nantes.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.10.2",
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
+        "simple-line-icons": "^2.4.1"
+    },
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-less": "^3.0.0",
+        "gulp-csso": "^4.0.0",
+        "gulp-concat": "^2.6.0",
+        "merge-stream": "2.0.0"
+    }
+}
