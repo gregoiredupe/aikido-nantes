@@ -1,8 +1,10 @@
-/*!
+/*
  * Copyright 2020 Aikido-Nantes
  */
 
-
+h1 {
+  color: #0e00a4
+}
 
 header.masthead {
   position: relative;
@@ -26,6 +28,7 @@ header.masthead {
 
 .section-heading {
     margin-bottom: 30px;
+    color: #0e00a4
 }
 
 .section-heading-spacer {
