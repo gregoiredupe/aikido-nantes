@@ -24,11 +24,13 @@ jobs:
     - name: gulp
       run: |
         gulp
+        ls
+        ls build
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
         # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/
-        ftp-server: ftpperso.free.fr
+        ftp-server: ftp://ftpperso.free.fr/aikido/
         # FTP account username
         ftp-username: gregdupe
         # FTP account password
