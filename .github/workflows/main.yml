@@ -1,6 +1,9 @@
 name: staging
 
-on: [push]
+on:
+  push:
+    branches:
+      - staging
 
 env:
   NODE_VERSION: "8.11.2"
