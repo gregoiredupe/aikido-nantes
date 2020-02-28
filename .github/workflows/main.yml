@@ -3,7 +3,7 @@ name: staging
 on: [push]
 
 env:
-  NODE_VERSION: "5.6.0"
+  NODE_VERSION: "8.11.2"
 
 jobs:
   build-and-deploy:
