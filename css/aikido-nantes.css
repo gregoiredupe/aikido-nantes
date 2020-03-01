@@ -40,3 +40,14 @@ header.masthead {
     font-weight: 400;
     letter-spacing: 2px;
 }
+
+.contact{
+    text-align: center;
+} 
+.tel, .mail {
+    font-size: 1.8rem;
+    color: #0e00a4;
+}
+.intro-social-buttons{
+    margin-top: 1rem;
+}
