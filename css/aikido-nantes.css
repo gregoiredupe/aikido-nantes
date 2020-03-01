@@ -1,6 +1,9 @@
 h1 {
   color: #0e00a4
 }
+h3, h4{
+    margin-top: 3rem;
+}
 .navbar h1{
     font-size: 3rem;
     text-align: left;
