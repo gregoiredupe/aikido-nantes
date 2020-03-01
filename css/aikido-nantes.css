@@ -33,11 +33,12 @@ header.masthead {
 }
 
 .section-heading {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     color: #0e00a4
 }
 
 .section-heading-spacer {
+    display: none;
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
