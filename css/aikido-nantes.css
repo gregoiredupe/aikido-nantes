@@ -1,6 +1,16 @@
 h1 {
   color: #0e00a4
 }
+.navbar h1{
+    font-size: 3rem;
+    text-align: left;
+}
+.navbar-brand img{
+    width:5rem;
+}
+.navbar-row{
+    align-items: center;
+}
 
 header.masthead {
   position: relative;
