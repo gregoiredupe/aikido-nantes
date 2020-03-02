@@ -54,4 +54,7 @@ header.masthead {
 
 @media screen and (max-width:740px) { 
   p {font-size:25px}
+  .container {
+    max-width: 740px;
+  }
 }
