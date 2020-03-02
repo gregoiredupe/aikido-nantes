@@ -1,7 +1,11 @@
+body{
+    font-size: 1.2rem;
+    font-weight: 350;
+}
 h1 {
   color: #0e00a4
 }
-h3, h4{
+h3, h4, h5, h6 {
     margin-top: 3rem;
     color: chocolate;
 }
@@ -68,4 +72,20 @@ header.masthead {
 }
 .copyright {
     text-align: center;
+}
+small {
+    font-style: italic;
+}
+p {
+    text-align: justify;
+}
+.punchLine{
+    text-align: center;
+    font-size: 2rem;
+    color: chocolate;
+    margin-bottom: 2rem;
+}
+.caption{
+    text-align: center;
+    font-style: italic;   
 }
