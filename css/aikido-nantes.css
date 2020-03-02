@@ -51,3 +51,7 @@ header.masthead {
 .intro-social-buttons{
     margin-top: 1rem;
 }
+
+@media screen and (max-width:740px) { 
+  p {font-size:25px}
+}
