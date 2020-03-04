@@ -4,6 +4,7 @@ body{
 }
  h1 {
   color: #0e00a4;
+  margin-top: -10px;
 }
 h3, h4, h5, h6 {
     margin-top: 3rem;
