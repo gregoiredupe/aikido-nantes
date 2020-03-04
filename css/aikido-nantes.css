@@ -1,11 +1,34 @@
-h1 {
-  color: #0e00a4
+body{
+    font-size: 1.2rem;
+    font-weight: 350;
+}
+ h1 {
+  color: #0e00a4;
+  margin-top: -10px;
+}
+h3, h4, h5, h6 {
+    margin-top: 3rem;
+    color: chocolate;
+}
+
+.navbar {
+	display:block
+}
+.navbar h1{
+    font-size: 2rem;
+    text-align: left;
+}
+.navbar-brand img{
+    width:4rem;
+}
+.navbar-row{
+    align-items: center;
 }
 
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/intro-bg3-light4.jpg") no-repeat center center;
+  background: url("../img/intro-bg3-light2.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -23,11 +46,12 @@ header.masthead {
 }
 
 .section-heading {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     color: #0e00a4
 }
 
 .section-heading-spacer {
+    display: none;
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
@@ -52,9 +76,22 @@ header.masthead {
     margin-top: 1rem;
 }
 
-@media screen and (max-width:800px) { 
-  p {font-size:25px}
-  .container {
-    max-width: 800px;
-  }
+.copyright {
+    text-align: center;
+}
+small {
+    font-style: italic;
+}
+p {
+    text-align: justify;
+}
+.punchLine{
+    text-align: center;
+    font-size: 2rem;
+    color: chocolate;
+    margin-bottom: 2rem;
+}
+.caption{
+    text-align: center;
+    font-style: italic;   
 }
