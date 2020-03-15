@@ -1,0 +1,41 @@
+name: staging
+
+on:
+  push:
+    branches:
+      - experimentation3
+
+env:
+  NODE_VERSION: "8.11.2"
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ env.NODE_VERSION }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+    - name: npm install
+      run: |
+        npm install
+    - name: gulp
+      run: |
+        gulp
+        ls
+        ls build
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      with:
+        # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/
+        ftp-server: ftp://ftpperso.free.fr/aikido3/
+        # FTP account username
+        ftp-username: gregdupe
+        # FTP account password
+        ftp-password: ${{ secrets.FTP_PASS }}
+        # The local folder to copy, defaults to root project folder
+        local-dir: build/
+        # Passes through options into git-ftp
+        #git-ftp-args: # optional
