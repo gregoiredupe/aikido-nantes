@@ -100,8 +100,7 @@ p {
     text-align: center
 }
 
-@media screen and (min-width: 600px),
-   screen and (max-resolution: 180dpi) {
+@media screen and (min-width: 600px) {
     h1 {
         text-align: left
     }
