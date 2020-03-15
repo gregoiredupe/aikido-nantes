@@ -95,7 +95,7 @@ p {
     font-style: italic;   
 }
 
-@media screen and (max-width: 600px) and (max-resolution: 180dpi) {
+@media screen and (max-width: 600px) or (max-resolution: 180dpi) {
     h1 {
         text-align: center
     }
