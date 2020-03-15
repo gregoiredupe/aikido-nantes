@@ -5,6 +5,7 @@ body{
  h1 {
   color: #0e00a4;
   margin-top: -10px;
+  text-align: center
 }
 h3, h4, h5, h6 {
     margin-top: 3rem;
@@ -15,11 +16,11 @@ h3, h4, h5, h6 {
 	display:block
 }
 .navbar h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
 }
 .navbar-brand img{
-    width:4rem;
+    width:3rem;
 }
 .navbar-row{
     align-items: center;
@@ -95,18 +96,22 @@ p {
     font-style: italic;   
 }
 
-@media screen and (max-width: 600px),
-   screen and (min-resolution: 180dpi) {
+#aikido-illustration {
+    text-align: center
+}
+
+@media screen and (min-width: 600px),
+   screen and (max-resolution: 180dpi) {
     h1 {
-        text-align: center
+        text-align: left
     }
     .navbar-brand img {
-        width: 3rem;
+        width: 4rem;
     }
     .navbar h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     #aikido-illustration {
-        text-align: center
+        text-align: left
     }
 }
