@@ -15,9 +15,16 @@ h3, h4, h5, h6 {
 .navbar {
 	display:block
 }
-.navbar h1{
-    font-size: 1.5rem;
+#navbar-aikidonantes {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #0e00a4;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 1.9rem;
     text-align: left;
+    vertical-align: bottom;
 }
 .navbar-brand img{
     width:3rem;
@@ -107,8 +114,8 @@ p {
     .navbar-brand img {
         width: 4rem;
     }
-    .navbar h1 {
-        font-size: 2rem;
+    #navbar-aikidonantes {
+        font-size: 2.7rem;
     }
     #aikido-illustration {
         text-align: left
