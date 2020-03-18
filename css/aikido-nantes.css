@@ -20,11 +20,10 @@ h3, h4, h5, h6 {
     font-weight: 500;
     line-height: 1.2;
     color: #0e00a4;
-    margin-top: -10px;
     text-align: center;
     font-size: 1.9rem;
     text-align: left;
-    vertical-align: bottom;
+    margin-top: 10px;
 }
 .navbar-brand img{
     width:3rem;
