@@ -1,4 +1,4 @@
-name: staging
+name: master
 
 on:
   push:
@@ -30,7 +30,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
         # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/
-        ftp-server: ftp://ftp.cluster010.hosting.ovh.net:21/
+        ftp-server: ftp://ftp.cluster010.hosting.ovh.net:21/www/
         # FTP account username
         ftp-username: aikidona
         # FTP account password
