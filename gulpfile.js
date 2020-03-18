@@ -49,8 +49,14 @@ function html() {
 		.pipe(gulp.dest('build'))
 }
 
+function js() {
+	return gulp.src('*.js')
+		.pipe(gulp.dest('build'))
+}
+
 exports.css = mincss;
 exports.html = html;
+exports.js = js;
 exports.vendor = initVendorDir;
 exports.img = img;
 exports.default = gulp.parallel(html, mincss, initVendorDir, img);
