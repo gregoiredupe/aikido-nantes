@@ -59,4 +59,4 @@ exports.html = html;
 exports.js = js;
 exports.vendor = initVendorDir;
 exports.img = img;
-exports.default = gulp.parallel(html, mincss, initVendorDir, img);
+exports.default = gulp.parallel(html, mincss, initVendorDir, img, js);
