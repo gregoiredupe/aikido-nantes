@@ -19,4 +19,4 @@ var center = new OpenLayers.LonLat(-1.5650, 47.2164).transform(
 		map.getProjectionObject()
 );
 map.addLayer(markers);
-map.setCenter(center, 13);
+map.setCenter(center, 12);

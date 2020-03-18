@@ -107,6 +107,11 @@ p {
     text-align: center
 }
 
+#mapdiv {
+    height: 500px;
+    width: 100%
+}
+
 @media screen and (min-width: 600px) {
     h1 {
         text-align: left
@@ -119,5 +124,9 @@ p {
     }
     #aikido-illustration {
         text-align: left
+    }
+    #mapdiv {
+        height: 100%;
+        width: 100%
     }
 }
