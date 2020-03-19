@@ -1,22 +1,37 @@
-map = new OpenLayers.Map("mapdiv");
-map.addLayer(new OpenLayers.Layer.OSM());
+var map = new ol.Map({
+	target : 'mapdiv',
+	layers : [ new ol.layer.Tile({
+		source : new ol.source.OSM()
+	}) ],
+	view : new ol.View({
+		center : ol.proj.fromLonLat([ -1.5650, 47.2164 ]),
+		zoom : 12
+	})
+});
 
-var markers = new OpenLayers.Layer.Markers("Markers");
-function addMarker(markers, lon, lat) {
-	var lonLat = new OpenLayers.LonLat(lon, lat).transform(
-			new OpenLayers.Projection("EPSG:4326"),
-			map.getProjectionObject()
-	);
-	var zoom = 16;
-	markers.addMarker(new OpenLayers.Marker(lonLat));
+function createPin (lon, lat) {
+	var pinFeature = new ol.Feature({
+		geometry : new ol.geom.Point(ol.proj.fromLonLat([ lon, lat ])),
+		name : 'Aikido-Nantes'
+	});
+	
+	var pinStyle = new ol.style.Style({
+		image : new ol.style.Icon({
+			src : 'img/yamabikonomichi-modifContraste-64x64.png'
+		})
+	});
+	pinFeature.setStyle(pinStyle);
+	return pinFeature;
 }
-addMarker(markers, -1.52728, 47.23059);
-addMarker(markers, -1.53604, 47.20954);
-addMarker(markers, -1.57979, 47.21423);
-addMarker(markers, -1.60387, 47.21056);
-var center = new OpenLayers.LonLat(-1.5650, 47.2164).transform(
-		new OpenLayers.Projection("EPSG:4326"),
-		map.getProjectionObject()
-);
-map.addLayer(markers);
-map.setCenter(center, 12);
+
+var layer = new ol.layer.Vector({
+	source : new ol.source.Vector({
+		features : [
+				createPin(-1.52728, 47.23059),
+				createPin(-1.53604, 47.20954),
+				createPin(-1.57979, 47.21423),
+				createPin(-1.60387, 47.21056)
+			]
+	})
+});
+map.addLayer(layer);
