@@ -17,7 +17,8 @@ function createPin (lon, lat) {
 	
 	var pinStyle = new ol.style.Style({
 		image : new ol.style.Icon({
-			src : 'img/yamabikonomichi-modifContraste-64x64.png'
+			src : 'img/mapMarker.png',
+			anchor : [ 0.5 , 1 ]
 		})
 	});
 	pinFeature.setStyle(pinStyle);
