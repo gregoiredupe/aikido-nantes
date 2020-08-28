@@ -129,3 +129,17 @@ p {
         width: 100%
     }
 }
+
+.infoDuMoment {
+    font-size: 1.8rem;
+    color: black;
+    text-align:center;
+    font-size:1.5rem;
+    border-style:solid;
+    border-color:#0e00a4;
+    border-width:4px;
+    width:80%;
+    margin-right: auto;
+    margin-left : auto;
+    margin-top:40px
+}'
