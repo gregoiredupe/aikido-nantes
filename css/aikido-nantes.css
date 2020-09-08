@@ -80,6 +80,9 @@ header.masthead {
     color: #0e00a4;
 }
 
+.tel a {
+    text-decoration: underline;
+}
 
 .mail a {
     text-decoration: underline;
