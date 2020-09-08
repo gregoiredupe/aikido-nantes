@@ -79,6 +79,12 @@ header.masthead {
     font-size: 1.8rem;
     color: #0e00a4;
 }
+
+
+.mail a {
+    text-decoration: underline;
+}
+
 .intro-social-buttons{
     margin-top: 1rem;
 }
