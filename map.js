@@ -31,7 +31,6 @@ var layer = new ol.layer.Vector({
 				createPin(-1.52728, 47.23059),
 				createPin(-1.53604, 47.20954),
 				createPin(-1.57979, 47.21423),
-				createPin(-1.60387, 47.21056)
 			]
 	})
 });
