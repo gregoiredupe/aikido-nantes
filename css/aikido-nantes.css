@@ -161,3 +161,7 @@ p {
 .infoDuMoment div {
 	margin-bottom : 15px
 }
+
+.navbar-light .navbar-nav .nav-link {
+	color: #42424B;
+}
