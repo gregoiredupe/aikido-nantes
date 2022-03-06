@@ -26,9 +26,6 @@ jobs:
         gulp
         ls
         ls build
-    - name: htaccess
-      run: |
-        cp .htaccess build
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
