@@ -7,9 +7,13 @@ body{
   margin-top: -10px;
   text-align: center
 }
-h3, h4, h5, h6 {
+h3, h2, h5, h6 {
     margin-top: 3rem;
     color: chocolate;
+}
+
+.h2, h2 {
+  font-size: 1.5rem;
 }
 
 .navbar {
