@@ -44,6 +44,12 @@ function img() {
 	return merge(imgdir);
 }
 
+function docs() {
+	var imgdir = gulp.src('docs/**/*')
+		.pipe(gulp.dest('build/docs'));
+	return merge(imgdir);
+}
+
 function html() {
 	return gulp.src('index.html')
 		.pipe(gulp.dest('build'))
@@ -59,4 +65,5 @@ exports.html = html;
 exports.js = js;
 exports.vendor = initVendorDir;
 exports.img = img;
-exports.default = gulp.parallel(html, mincss, initVendorDir, img, js);
+exports.docs = docs;
+exports.default = gulp.parallel(html, mincss, initVendorDir, img, js, docs);
