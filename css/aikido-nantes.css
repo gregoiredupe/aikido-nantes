@@ -173,3 +173,7 @@ p {
 .navbar-light .navbar-nav .nav-link {
 	color: #42424B;
 }
+
+h2 a {
+	color: chocolate
+}
