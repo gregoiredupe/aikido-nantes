@@ -84,7 +84,7 @@ header.masthead {
     text-align: center;
 } 
 .tel, .mail {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #0e00a4;
 }
 
@@ -110,7 +110,7 @@ p {
 }
 .punchLine{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: chocolate;
     margin-bottom: 2rem;
 }
