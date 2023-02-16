@@ -27,7 +27,7 @@ jobs:
         ls
         ls build
     - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      uses: SamKirkland/FTP-Deploy-Action@3.1.2
       with:
         # Deployment destination server & path. Formatted as protocol://domain.com:port/full/destination/path/
         ftp-server: ftp://ftp.cluster010.hosting.ovh.net:21/www/
