@@ -5,6 +5,10 @@ const less = require('gulp-less');
 const minifyCSS = require('gulp-csso');
 const concat = require('gulp-concat');
 const merge = require('merge-stream');
+const { src, dest, series } = require('gulp');
+const markdown = require('gulp-markdown');
+const rename = require('gulp-rename');
+const fileInclude = require('gulp-file-include');
 
 function mincss() {
 	return gulp.src('css/*')
@@ -52,12 +56,27 @@ function docs() {
 
 function html() {
 	return gulp.src('index.html')
+			.pipe(fileInclude({
+				prefix: '@@',
+				basepath: 'build'
+			}))
 		.pipe(gulp.dest('build'))
 }
 
 function js() {
 	return gulp.src('*.js')
+		.pipe(fileInclude({
+			prefix: '@@',
+			basepath: 'build'
+		}))
 		.pipe(gulp.dest('build'))
+}
+
+function mdToHtml() {
+  return src('includes/**/*.md')
+    .pipe(markdown())
+    .pipe(rename({ extname: '.html' }))
+    .pipe(dest('build/includes'));
 }
 
 exports.css = mincss;
@@ -66,4 +85,4 @@ exports.js = js;
 exports.vendor = initVendorDir;
 exports.img = img;
 exports.docs = docs;
-exports.default = gulp.parallel(html, mincss, initVendorDir, img, js, docs);
+exports.default = gulp.series(mdToHtml, html, mincss, initVendorDir, img, js, docs);
