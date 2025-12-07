@@ -1,6 +1,6 @@
 ## Stages dirigés par [Gérard Blaize](https://www.aiatj.com/tiki-index.php?page=Stages)
-8ème Dan de l'Aïkikaï de Tokyo\
-5ème Dan de Masakatsu Bo-Jutsu\
+8ème Dan de l'Aïkikaï de Tokyo<br/>
+5ème Dan de Masakatsu Bo-Jutsu<br/>
 [Liste des stages AIATJ](https://www.aiatj.com/tiki-index.php?page=Stages">)
 
 <!--

@@ -1,5 +1,5 @@
 ## Stage dirigé par Mitsuo Tasaka
-7ème Dan de l'Aïkikaï de Tokyo\
+7ème Dan de l'Aïkikaï de Tokyo<br/>
 5ème Dan de Masakatsu Bo-Jutsu
 
 

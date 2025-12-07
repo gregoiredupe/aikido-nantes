@@ -1,7 +1,7 @@
 
 ## Stages dirigés par Didier Lejard
 
-6ème Dan de l'Aïkikaï de Tokyo\
+6ème Dan de l'Aïkikaï de Tokyo<br/>
 6ème Dan AFATJ
 
 ### 25 et 26 Octobre 2025
