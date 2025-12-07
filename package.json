@@ -21,7 +21,7 @@
         "simple-line-icons": "^2.4.1"
     },
     "devDependencies": {
-        "gulp": "^4.0.2",
+        "gulp": "^5.0.1",
         "gulp-less": "^4.0.0",
         "gulp-csso": "^4.0.0",
         "gulp-concat": "^2.6.0",
