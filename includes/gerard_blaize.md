@@ -17,7 +17,7 @@ Quimper (29) : Dojo H. Tazieff - Croas Spern - 29500 Ergué Gaberic
 ### 26 au 30 Décembre 2025
 [Paris](https://www.aiatj.com/) (75) : Salle des Sports Amandiers - 8 rue Delgres - 75020 Paris
 
-### Janvier 2026
+### 17 et 18 Janvier 2026
 [Rennes](https://aikidorennes35.wordpress.com/) (35) : Dojo régional - 1 allée Pierre De Coubertin - 35000 Rennes
 
 ### 14 et 15 Février 2026
