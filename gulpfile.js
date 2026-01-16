@@ -9,13 +9,18 @@ const { src, dest, series } = require('gulp');
 const markdown = require('gulp-markdown');
 const rename = require('gulp-rename');
 const fileInclude = require('gulp-file-include');
+const path = require("path");
+const template = require('gulp-template');
+
+const LOCALES_PATH = "locales";
+const DIST_PATH = "build";
 
 function mincss() {
 	return gulp.src('css/*')
 		.pipe(less())
 		.pipe(minifyCSS())
 		.pipe(gulp.dest('build/css'))
-	}
+}
 
 function clean() {
 	return del(["./vendor/"]);
@@ -54,35 +59,58 @@ function docs() {
 	return merge(imgdir);
 }
 
-function html() {
-	return gulp.src('index.html')
+function htmlFactory(lang) {
+	return function html() {
+		const dict = require('./'+LOCALES_PATH + '/' + lang+'.json');
+		return gulp.src('index.html')
+			.pipe(
+				template(dict)
+			)
 			.pipe(fileInclude({
 				prefix: '@@',
-				basepath: 'build'
+				basepath: 'tmp/includes/'+lang
 			}))
-		.pipe(gulp.dest('build'))
+    		.pipe(gulp.dest(DIST_PATH+'/'+lang));
+	}
 }
 
 function js() {
 	return gulp.src('*.js')
-		.pipe(fileInclude({
-			prefix: '@@',
-			basepath: 'build'
-		}))
 		.pipe(gulp.dest('build'))
 }
 
-function mdToHtml() {
-  return src('includes/**/*.md')
-    .pipe(markdown())
-    .pipe(rename({ extname: '.html' }))
-    .pipe(dest('build/includes'));
+function mdToHtmlFactory(lang) {
+	return function mdToHtml() {
+		return gulp.src('includes/'+lang+'/*.md')
+			.pipe(markdown())
+			.pipe(rename({ extname: '.html' }))
+			.pipe(dest('tmp/includes/'+lang));
+	}
 }
 
+exports.mdToHtml = mdToHtmlFactory;
 exports.css = mincss;
-exports.html = html;
+exports.html = htmlFactory;
 exports.js = js;
 exports.vendor = initVendorDir;
 exports.img = img;
 exports.docs = docs;
-exports.default = gulp.series(mdToHtml, html, mincss, initVendorDir, img, js, docs);
+
+function main(done) {
+	const locales = fs.readdirSync(LOCALES_PATH);
+	const tasks = locales.reduce((acc,localeFile) => {
+		const lang = path.basename(localeFile, ".json");
+		console.log("lang="+lang);
+		acc.push(mdToHtmlFactory(lang));
+		acc.push(htmlFactory(lang));
+		return acc
+	},[]);
+	tasks.push(mincss);
+	tasks.push(initVendorDir);
+	tasks.push(img);
+	tasks.push(js);
+	tasks.push(docs);
+	return tasks;
+}
+
+exports.default = gulp.series(main());

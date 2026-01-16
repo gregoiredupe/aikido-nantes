@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="<%= lang %>">
 
 <head>
 
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link href="../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-<link href="css/aikido-nantes.css" rel="stylesheet">
-<link rel="icon" type="image/png" href="img/logo-aikido-nantes.png">
+<link href="../css/aikido-nantes.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="../img/logo-aikido-nantes.png">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="">
-<meta name="Description" lang="fr" content="Aikido-Nantes organise des cours et des stages d'aikido tel que le fondateur Morihei Ueshiba l'a transmis à ses eleves direct. Le club dispense un enseignement traditionnel base sur la transmission de l'experience dans l'esprit d'un véritable dojo japonais avec 9 cours par semaine sans arrêt pendant les vacances scolaires.">
-<meta name="keywords" lang="fr" content="aikido,aïkido,Aikido,nantes,Nantes,aikido-nantes,Aikido-Nantes,Ueshiba,akido,aikdo,cours d'aikido,arts martiaux,entrainement d'aikido,federation d'aikido,association d'aikido,club nantais,confiance en soi,énergie,énergétique,bien-être,bien être,japon,art martial,spirituel,zen,contrôle de soi,kototama,hakama,ceinture noire,dan">
+<meta name="Description" lang="<%= lang %>" content="Aikido-Nantes organise des cours et des stages d'aikido tel que le fondateur Morihei Ueshiba l'a transmis à ses eleves direct. Le club dispense un enseignement traditionnel base sur la transmission de l'experience dans l'esprit d'un véritable dojo japonais avec 9 cours par semaine sans arrêt pendant les vacances scolaires.">
+<meta name="keywords" lang="<%= lang %>" content="aikido,aïkido,Aikido,nantes,Nantes,aikido-nantes,Aikido-Nantes,Ueshiba,akido,aikdo,cours d'aikido,arts martiaux,entrainement d'aikido,federation d'aikido,association d'aikido,club nantais,confiance en soi,énergie,énergétique,bien-être,bien être,japon,art martial,spirituel,zen,contrôle de soi,kototama,hakama,ceinture noire,dan">
 <meta name="revisit-after" content="15 days">
 <meta name="robots" content="index,follow">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/css/ol.css" type="text/css">
@@ -41,14 +41,14 @@
 			</button>
 			<div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-					<li><a class="nav-link" href="#contact">Contact</a></li>
-					<li><a class="nav-link" href="#horaires">Horaires et lieux</a></li>
-					<li><a class="nav-link" href="#inscription">Inscription</a></li>
-					<li><a class="nav-link" href="#formulaire">Formulaires</a></li>
-					<li><a class="nav-link" href="#esprit">Esprit</a></li>
-					<li><a class="nav-link" href="#aikido">L'Aikido</a></li>
-					<li><a class="nav-link" href="#enseignant">Enseignant</a></li>
-					<li><a class="nav-link" href="#calendar">Calendrier</a></li>
+					<li><a class="nav-link" href="#contact"><%= contact %></a></li>
+					<li><a class="nav-link" href="#horaires"><%= horaires_et_lieux %></a></li>
+					<li><a class="nav-link" href="#inscription"><%= inscription %></a></li>
+					<li><a class="nav-link" href="#formulaire"><%= formulaire %></a></li>
+					<li><a class="nav-link" href="#esprit"><%= esprit %></a></li>
+					<li><a class="nav-link" href="#aikido"><%= aikido %></a></li>
+					<li><a class="nav-link" href="#enseignant"><%= enseignant %></a></li>
+					<li><a class="nav-link" href="#calendar"><%= calendar %></a></li>
 				</ul>
 			</div>
 		</div>
@@ -60,7 +60,7 @@
 	<div class="content-section-b">
 		<div class="container">
 			<div class="column contact">
-				<div class="punchLine">Bienvenue à Aikido-Nantes</div>
+				<div class="punchLine"><%= bienvenu %></div>
 				<div class="infoDuMoment">
 				<div>2025-2026<br/>
 					Nos cours reprennent à partir du 1 septembre.
@@ -88,50 +88,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 order-lg-1">
-					<h1 class="section-heading">horaires et lieux</h1>
+					<h1 class="section-heading"><%= horaires_et_lieux %></h1>
 					<hr class="section-heading-spacer">
 					<div class="clearfix"></div>
-					<h2>Pendant la saison sportive</h2>
-					<h3>Complexe Christiane MOREAU</h3>
-					<p>Salle Raspail<br/>
-					7 rue Raspail - quartier Mellinet - Zola</p>
-					<ul>
-						<li>lundi : 19h00 - 21h45 (armes Masakatsu Bojutsu de 19h00 à 19h45)</li>
-						<li>samedi : 13h00 - 15h00</li>
-					</ul>
-					<h3>Complexe Sportif Noé Lambert</h3>
-					<p>Salle aïkido-judo<br/>
-					42 bd des Poilus - quartier de la Mitrie</p>
-					<ul>
-						<li>mardi : 20h00 - 22h00</li>
-						<li>mercredi : 18h30 - 20h00</li>
-						<li>vendredi : 20h30 - 22h00</li>
-					</ul>
-					<h3>Palais des sports de Beaulieu</h3>
-					<p>Salle aïkido-judo<br/>
-					3 rue André Tardieu</p>
-					<ul>
-						<li>lundi, mardi, jeudi et vendredi : 12h15 - 13h30/45</li>
-					</ul>
-					<p>
-					Aikido-nantes tient à proposer des entraînements toute l'année sans interruption.
-					Durant la saison sportive, excepté entre noël et le premier de l'an, les cours ne cessent pas durant les petites vacances scolaires.
-					L'été, en juillet et août, Aikido-Nantes continue à raison de deux cours les mardis et jeudis soirs.
-					</p>
-					<p>
-						Les cours se déroulent comme dans les dojos traditionnels japonais, par et avec le lien "sempaï-kohaï(*)" entre élèves et donc, anciens, débutants, adolescents et enfants s'entraînent ensembles, sans jamais être séparés.
-					</p>
-					<p>
-						<small>(*) senpaï (élève avancé) qui se doit d'être tuteur et le relais de l'enseignement du senseï (professeur) auprès du kohaï (jeune élève)</small>
-					</p>
-					<h2>Pendant les vacances d'été</h3>
-					<h3>Palais des sports de Beaulieu</h3>
-					<p>Salle aïkido-judo<br/>
-					3 rue André Tardieu</p>
-					<ul>
-						<li>mardi : 18h30 - 20h30</li>
-						<li>jeudi : 18h30 - 20h30</li>
-					</ul>
+@@include('horaires.html')
 				</div>
 				<div class="col-lg-6 order-lg-2">
 					<div id="mapdiv"></div>
@@ -146,29 +106,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 order-lg-2">
-					<h1 class="section-heading">inscriptions</h1>
+					<h1 class="section-heading"><%= inscription %></h1>
 					<hr class="section-heading-spacer">
 					<div class="clearfix"></div>
-					<p>
-						L'adhésion est possible tout au long de la saison.
-					</p>
-					<p>
-						Nous vous invitons à venir participer à un ou deux cours d'essai. Venez avec un kimono de judo ou des vêtements amples "style jogging", sur une semaine aux entraînements dans les salles et horaires qui retiennent votre attention.
-					</p>
-					<p>
-						Par la suite, en temps qu'adhérent vous aurez accès à tout les entraînements.
-					</p>
+@@include('inscriptions.html')
 					<a id="formulaire"></a>
-					<h1 class="section-heading">formulaires</h1>
+					<h1 class="section-heading"><%= formulaire %>></h1>
 					<hr class="section-heading-spacer">
 					<div class="clearfix"></div>
-					<p>
-						À l'issue de vos cours d'essai une fiche d'inscription vous sera remise par le professeur.
-						Avec cette fiche, il vous faudra un certificat médical de non contre indication à la pratique de l'aikido et pour les mineurs l'<a href="docs/Autorisation parentale 2022.pdf">autorisation parentale</a> dûment remplie.
-					</p>
-					<ul>
-						<li><a href="docs/Autorisation parentale 2022.pdf">autorisation parentale</a></li>
-					</ul>
+@@include('formulaires.html')
 				</div>
 				<div class="col-lg-6 order-lg-1">
 					<img class="img-responsive" src="img/osensei_inscrip.png" alt="" style="width:100%">
@@ -185,12 +131,7 @@
 					<h1 class="section-heading">l'esprit du club</h1>
 					<hr class="section-heading-spacer">
 					<div class="clearfix"></div>
-					<p>
-						Aïkido-Nantes tient à maintenir un enseignement dans l'esprit des Dojos traditionnels d'Aïkido, essentiel pour pénétrer l'âme de la pratique où chaque pratiquants du club, selon son investissement, apporte et reçoit dans une ambiance conviviale et amicale.
-					</p>
-					<p>
-						Nous explorons tous ensemble une Pratique de l'Aïkido fidèle à l'enseignement du Fondateur Moriheï UESHIBA (14 décembre 1883-26 avril 1969) qui nous a été transmis par Michio HIKITSUCHI senseï, son élève durant près de 40 ans (14 juillet 1923 -02 février 2004).
-					</p>
+@@include('esprit_du_club.html')
 				</div>
 				<div class="col-lg-6 order-lg-2" id="esprit-illustration">
 					<!--
@@ -206,26 +147,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 order-lg-2">
-					<h1 class="section-heading">l'aikido</h1>
+					<h1 class="section-heading"><%= aikido %></h1>
 					<hr class="section-heading-spacer">
 					<div class="clearfix"></div>
-					<p>
-						Les techniques d'Aïkido du fondateur, fidèlement exécutées, sont "des outils" qui aident à abandonner le monde du combat menant à la destruction et la domination d'autrui, afin de découvrir et cultiver un état apportant sérénité, paix intérieure et confiance en soi.
-					</p>
-					<p>
-						L'aïkido est une voie joyeuse qui aide à trouver sa place dans un groupe et par analogie à trouver sa place dans ce monde agité et pas toujours bienveillant.
-					</p>
-					<p>
-						Pratiquer cet aïkido, c'est :
-					</p>
-					<ul>
-						<li>
-							agir pour se préserver et ne pas être vaincu (ne pas être atteint) sans pour autant chercher à être vainqueur ;
-						</li>
-						<li>
-							donner à soi et à l'autre sa vraie place, cette place dans laquelle il trouve la joie et le bonheur d'être dans la grande famille humaine : heureux de donner et recevoir, sans prendre ni perdre ce qui lui est présenté.
-						</li>
-					</ul>
+@@include('aikido.html')
 				</div>
 				<div class="col-lg-6 order-lg-1" id="aikido-illustration">
 					<img class="img-responsive" src="img/calligraphie-aikido.png" style="height:100%" alt="合気道">
@@ -239,30 +164,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 order-lg-1">
-					<h1 class="section-heading">l'enseignant</h1>
+					<h1 class="section-heading"><%= l_enseignant %></h1>
 					<hr class="section-heading-spacer">
 					<div class="clearfix"></div>
-					<h2>Didier Lejard</h2>
-					<ul>
-						<li>6ème Dan Aïkikaï de Tokyo</li>
-						<li>6ème Dan groupe AIATJ</li>
-						<li>diplômé d'état,BE1</li>
-					</ul>
-					<p>
-						Enfant, au sein d'un cours de judo, il suit des cours d'initiation à l'aïkido entre 1964 et 1969.
-					<p>
-					</p>
-					<p>
-						À Nantes, en 1975 il s'inscrit aux cours d'aïkido de  Daniel Jotereau (pionnier de l'aïkido dans la région nantaise).
-						Étudiant à Paris (école du Louvres, Sorbonne et École pratique des Hautes Études en philologie-égyptologie), il suit de 1981 à 1989 le cours d'aïkido de Louis Boileau au Dojo du club SHOBUDO de la Montagne Sainte Geneviève (Paris 5e) que dirige Maître Henri Plee.
-						Il y devient assistant-professeur de 1984 à 1989 tout en devenant professeur en titre au KAJIN Club - passage Thiéré (Paris 11e) à partir de 1988 jusqu'en 1992.
-					<p>
-					<p>
-						En 1988-89 il rencontre Gérard Blaize, directeur technique national de L'AFA, qui enseigne l'Aïkido tel que reçu de Maître Michio Hikitsuchi (10ème Dan).
-					</p>
-					<p>
-						En septembre 1992, à la Demande de Bruno Burgell pratiquant d'aïkido, il s'installe à Nantes et y dirige les entraînements d'Aikido-Nantes Yama biko no Michi, association fondée sous l'impulsion de Marie Scherrer pour proposer et promouvoir son enseignement traditionnel et ouvert.
-					</p>
+@@include('enseignant.html')
 				</div>
 				<div class="col-lg-6 order-lg-2">
 					<!--  
@@ -270,11 +175,11 @@
 				-->
 					<div>
 						<img class="img-responsive" src="img/didier_et_doshu.jpg" alt="" style="width:100%">
-						<p class="caption">Didier LEJARD et le Doshu Moriteru UESHIBA au Hombu Dojo à l'Aïkikaï de Tokyo</p>
+						<p class="caption"><%= dlj_et_doshu %></p>
 					</div>
 					<div>
 						<img class="img-responsive" src="img/didier_et_sensei.jpg" alt="" style="width:100%">
-						<p class="caption">Didier LEJARD et Maître HIKITSUCHI au Dojo de SHINGU</p>
+						<p class="caption"><%= dlj_et_hikitsuchi %></p>
 					</div>
 				</div>
 			</div>
@@ -294,15 +199,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 order-lg-1">
-@@include('includes/didier_lejard.html')						
+@@include('didier_lejard.html')						
 					</div>
-
 					<div class="col-lg-4 order-lg-2">
-@@include('includes/gerard_blaize.html')
+@@include('gerard_blaize.html')
 					</div>
-
 					<div class="col-lg-4 order-lg-3">
-@@include('includes/autres_stages.html')
+@@include('autres_stages.html')
 					</div>
 				</div>
 			</div>
