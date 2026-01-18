@@ -11,6 +11,7 @@ const rename = require('gulp-rename');
 const fileInclude = require('gulp-file-include');
 const path = require("path");
 const template = require('gulp-template');
+const fs = require("fs");
 
 const LOCALES_PATH = "locales";
 const DIST_PATH = "build";
@@ -62,6 +63,10 @@ function docs() {
 function htmlFactory(lang) {
 	return function html() {
 		const dict = require('./'+LOCALES_PATH + '/' + lang+'.json');
+		var dest = DIST_PATH+'/'+lang;
+		if (lang == 'fr') {
+			dest = DIST_PATH;
+		}
 		return gulp.src('index.html')
 			.pipe(
 				template(dict)
@@ -70,7 +75,7 @@ function htmlFactory(lang) {
 				prefix: '@@',
 				basepath: 'tmp/includes/'+lang
 			}))
-    		.pipe(gulp.dest(DIST_PATH+'/'+lang));
+    		.pipe(gulp.dest(dest));
 	}
 }
 

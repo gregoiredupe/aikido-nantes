@@ -1,5 +1,6 @@
 {
   "lang" : "fr",
+  "base_path" : ".",
   "contact" : "Contact",
   "horaires_et_lieux" : "Horaires et lieux",
   "inscription" : "Inscription",
@@ -9,7 +10,7 @@
 	"aikido" : "L'Aikido",
 	"enseignant" : "Enseignant",
 	"l_enseignant" : "L'enseignant",
-	"calendar" : "Calendrier",
+	"Calendrier" : "Calendrier",
   "bienvenu" : "Bienvenue à Aikido-Nantes",
   "dlj_et_doshu" : "Didier LEJARD et le Doshu Moriteru UESHIBA au Hombu Dojo à l'Aïkikaï de Tokyo",
   "dlj_et_hikitsuchi" : "Didier LEJARD et Maître HIKITSUCHI au Dojo de SHINGU"

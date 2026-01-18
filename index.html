@@ -2,13 +2,15 @@
 <html lang="<%= lang %>">
 
 <head>
-
-<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link href="../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+<link rel="alternate" hreflang="fr" href="/" />
+<link rel="alternate" hreflang="en" href="/en/" />
+<link rel="alternate" hreflang="x-default" href="/" />
+<link href="<%= base_path %>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="<%= base_path %>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link href="<%= base_path %>/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-<link href="../css/aikido-nantes.css" rel="stylesheet">
-<link rel="icon" type="image/png" href="../img/logo-aikido-nantes.png">
+<link href="<%= base_path %>/css/aikido-nantes.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="<%= base_path %>/img/logo-aikido-nantes.png">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +22,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/css/ol.css" type="text/css">
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList"></script>
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/build/ol.js"></script>
-
 <title>Aikido-Nantes</title>
 
 </head>
@@ -30,7 +31,7 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-lightborder-bottom bg-light fixed-top">
 		<div class="row navbar-row">
 			<div class="navbar-brand col-lg-1 col-9" id="navbar-aikidonantes">
-				<img src="img/yamabikonomichi-modifContraste-64x64.png" alt="Logo">
+				<img src="<%= base_path %>/img/yamabikonomichi-modifContraste-64x64.png" alt="Logo">
 				aikido-nantes
 			</div>
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
@@ -48,7 +49,13 @@
 					<li><a class="nav-link" href="#esprit"><%= esprit %></a></li>
 					<li><a class="nav-link" href="#aikido"><%= aikido %></a></li>
 					<li><a class="nav-link" href="#enseignant"><%= enseignant %></a></li>
-					<li><a class="nav-link" href="#calendar"><%= calendar %></a></li>
+					<li><a class="nav-link" href="#calendar"><%= Calendrier %></a></li>
+					<li><a class="nav-link"><label for="lang-select">Langue :</label>
+						<select id="lang-select">
+							<option value="<%= base_path %>/">🇫🇷 Français</option>
+							<option value="<%= base_path %>/en/">🇬🇧 English</option>
+						</select></a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -191,7 +198,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 order-lg-1">
-					<h1 class="section-heading">calendier</h1>
+					<h1 class="section-heading"><%= Calendrier %></h1>
 					<hr class="section-heading-spacer">
 					<div class="clearfix"></div>
 				</div>
@@ -234,12 +241,17 @@
 			</div>
 		</div>
 	</footer>
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="<%= base_path %>/vendor/jquery/jquery.min.js"></script>
+	<script src="<%= base_path %>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script>
 		$("#menu-toggle").click(function(e) {
 			e.preventDefault();
 			$("#wrapper").toggleClass("toggled");
+		});
+	</script>
+	<script>
+		document.getElementById("lang-select").addEventListener("change", function () {
+			window.location.href = this.value;
 		});
 	</script>
 </body>
