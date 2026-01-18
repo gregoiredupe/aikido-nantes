@@ -52,8 +52,8 @@
 					<li><a class="nav-link" href="#calendar"><%= Calendrier %></a></li>
 					<li><a class="nav-link"><label for="lang-select">Langue :</label>
 						<select id="lang-select">
-							<option value="<%= base_path %>/">🇫🇷 Français</option>
-							<option value="<%= base_path %>/en/">🇬🇧 English</option>
+							<option value="fr">🇫🇷 Français</option>
+							<option value="en">🇬🇧 English</option>
 						</select></a>
 					</li>
 				</ul>
@@ -124,7 +124,7 @@
 @@include('formulaires.html')
 				</div>
 				<div class="col-lg-6 order-lg-1">
-					<img class="img-responsive" src="img/osensei_inscrip.png" alt="" style="width:100%">
+					<img class="img-responsive" src="<%= base_path %>/img/osensei_inscrip.png" alt="" style="width:100%">
 				</div>
 			</div>
 		</div>
@@ -160,7 +160,7 @@
 @@include('aikido.html')
 				</div>
 				<div class="col-lg-6 order-lg-1" id="aikido-illustration">
-					<img class="img-responsive" src="img/calligraphie-aikido.png" style="height:100%" alt="合気道">
+					<img class="img-responsive" src="<%= base_path %>/img/calligraphie-aikido.png" style="height:100%" alt="合気道">
 				</div>
 			</div>
 		</div>
@@ -181,11 +181,11 @@
 					<img class="img-responsive" src="img/didier.jpg" alt="">
 				-->
 					<div>
-						<img class="img-responsive" src="img/didier_et_doshu.jpg" alt="" style="width:100%">
+						<img class="img-responsive" src="<%= base_path %>/img/didier_et_doshu.jpg" alt="" style="width:100%">
 						<p class="caption"><%= dlj_et_doshu %></p>
 					</div>
 					<div>
-						<img class="img-responsive" src="img/didier_et_sensei.jpg" alt="" style="width:100%">
+						<img class="img-responsive" src="<%= base_path %>/img/didier_et_sensei.jpg" alt="" style="width:100%">
 						<p class="caption"><%= dlj_et_hikitsuchi %></p>
 					</div>
 				</div>
@@ -251,8 +251,20 @@
 	</script>
 	<script>
 		document.getElementById("lang-select").addEventListener("change", function () {
-			window.location.href = this.value;
+			if (this.value == "fr") {
+				window.location.href = "<%= base_path %>";
+			} else {
+				window.location.href = "<%= base_path %>/"+this.value+"/";
+			}
 		});
+		document.addEventListener("DOMContentLoaded", function () {
+			const select = document.getElementById("lang-select");
+			Array.from(select.options).forEach(option => {
+				if (option.value === document.documentElement.lang) {
+					option.selected = true;
+				}
+    		});
+  		});
 	</script>
 </body>
 
