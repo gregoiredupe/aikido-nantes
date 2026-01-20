@@ -15,8 +15,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="">
-<meta name="Description" lang="<%= lang %>" content="Aikido-Nantes organise des cours et des stages d'aikido tel que le fondateur Morihei Ueshiba l'a transmis à ses eleves direct. Le club dispense un enseignement traditionnel base sur la transmission de l'experience dans l'esprit d'un véritable dojo japonais avec 9 cours par semaine sans arrêt pendant les vacances scolaires.">
-<meta name="keywords" lang="<%= lang %>" content="aikido,aïkido,Aikido,nantes,Nantes,aikido-nantes,Aikido-Nantes,Ueshiba,akido,aikdo,cours d'aikido,arts martiaux,entrainement d'aikido,federation d'aikido,association d'aikido,club nantais,confiance en soi,énergie,énergétique,bien-être,bien être,japon,art martial,spirituel,zen,contrôle de soi,kototama,hakama,ceinture noire,dan">
+<meta name="Description" lang="<%= lang %>" content="<%= meta_description %>">
+<meta name="keywords" lang="<%= lang %>" content="<%= meta_keywords %>">
 <meta name="revisit-after" content="15 days">
 <meta name="robots" content="index,follow">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/css/ol.css" type="text/css">
@@ -49,7 +49,7 @@
 					<li><a class="nav-link" href="#esprit"><%= esprit %></a></li>
 					<li><a class="nav-link" href="#aikido"><%= aikido %></a></li>
 					<li><a class="nav-link" href="#enseignant"><%= enseignant %></a></li>
-					<li><a class="nav-link" href="#calendar"><%= Calendrier %></a></li>
+					<li><a class="nav-link" href="#calendar"><%= calendrier %></a></li>
 					<li><a class="nav-link"><label for="lang-select">Langue :</label>
 						<select id="lang-select">
 							<option value="fr">🇫🇷 Français</option>
@@ -66,19 +66,8 @@
 	<a id="contact"></a>
 	<div class="content-section-b">
 		<div class="container">
-			<div class="column contact">
-				<div class="punchLine"><%= bienvenu %></div>
-				<div class="infoDuMoment">
-				<div>2025-2026<br/>
-					Nos cours reprennent à partir du 1 septembre.
-				</div>
-				<div>
-					Inscriptions et réinscriptions sur place. <br/>
-					N'hésitez pas à contacter le professeur Didier LEJARD pour avoir plus d'informations (<a href="tel:+33610162662">06 10 16 26 62</a>).
-				</div>
-				</div>
-				<div class="punchLine2">9 entraînements par semaine, ouverts à tous - y compris pendant les vacances scolaires</div>
-				<div class="punchLine3">Les inscriptions se font toute l'année à l'issu du ou des cours d'essai.</div>
+			<div class="column accueil">
+@@include('accueil.html')
 				<div class="tel"><a href="tel:+33610162662">06 10 16 26 62</a></div>
 				<div class="mail"><a href="mailto:contact@aikido-nantes.org">contact@aikido-nantes.org</a></div>
 				<ul class="list-inline intro-social-buttons">
@@ -102,7 +91,8 @@
 				</div>
 				<div class="col-lg-6 order-lg-2">
 					<div id="mapdiv"></div>
-					<script src="map.js"></script>
+					<script>const base_path="<%= base_path %>";</script>
+					<script src="<%= base_path %>/map.js"></script>
 				</div>
 			</div>
 		</div>
@@ -198,7 +188,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 order-lg-1">
-					<h1 class="section-heading"><%= Calendrier %></h1>
+					<h1 class="section-heading"><%= calendrier %></h1>
 					<hr class="section-heading-spacer">
 					<div class="clearfix"></div>
 				</div>

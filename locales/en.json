@@ -1,6 +1,8 @@
 {
   "lang" : "en",
   "base_path" : "..",
+  "meta_description" : "Aikido-Nantes organise des cours et des stages d'aikido tel que le fondateur Morihei Ueshiba l'a transmis à ses eleves direct. Le club dispense un enseignement traditionnel base sur la transmission de l'experience dans l'esprit d'un véritable dojo japonais avec 9 cours par semaine sans arrêt pendant les vacances scolaires.",
+  "meta_keywords" : "aikido,aïkido,Aikido,nantes,Nantes,aikido-nantes,Aikido-Nantes,Ueshiba,akido,aikdo,cours d'aikido,arts martiaux,entrainement d'aikido,federation d'aikido,association d'aikido,club nantais,confiance en soi,énergie,énergétique,bien-être,bien être,japon,art martial,spirituel,zen,contrôle de soi,kototama,hakama,ceinture noire,dan",
   "contact" : "Contact",
   "horaires_et_lieux" : "Times and locations",
   "inscription" : "Registration",
@@ -10,9 +12,7 @@
 	"aikido" : "The Aikido",
 	"enseignant" : "Teatcher",
 	"l_enseignant" : "The teatcher",
-	"Calendrier" : "Calendar",
-  "bienvenu" : "Welcome at Aikido-Nantes",
-  "dlj_et_doshu" : "Didier LEJARD and the Doshu Moriteru UESHIBA aat the Hombu Dojo ath the Tokyo Aïkikaï",
+	"calendrier" : "Calendar",
+  "dlj_et_doshu" : "Didier LEJARD and the Doshu Moriteru UESHIBA at the Hombu Dojo ath the Tokyo Aïkikaï",
   "dlj_et_hikitsuchi" : "Didier LEJARD and Maître HIKITSUCHI at the SHINGU dojo"
-
 }

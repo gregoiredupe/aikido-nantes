@@ -105,7 +105,6 @@ function main(done) {
 	const locales = fs.readdirSync(LOCALES_PATH);
 	const tasks = locales.reduce((acc,localeFile) => {
 		const lang = path.basename(localeFile, ".json");
-		console.log("lang="+lang);
 		acc.push(mdToHtmlFactory(lang));
 		acc.push(htmlFactory(lang));
 		return acc

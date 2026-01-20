@@ -108,26 +108,51 @@ small {
 p {
     text-align: justify;
 }
-.punchLine{
+
+
+
+.accueil {
+    text-align: center;
+} 
+
+.accueil h1 {
     text-align: center;
     font-size: 1.7rem;
     color: chocolate;
     margin-bottom: 2rem;
 }
 
-.punchLine2{
+.accueil h2{
     text-align: center;
     font-size: 1.5rem;
     color: chocolate;
     margin-bottom: 2rem;
 }
 
-.punchLine3{
+.accueil h3{
     text-align: center;
     font-size: 1.2rem;
     color: chocolate;
     margin-bottom: 2rem;
 }
+
+.accueil blockquote {
+    color: black;
+    text-align:center;
+    font-size:1.5rem;
+    border-style:solid;
+    border-color:#0e00a4;
+    border-width:4px;
+    margin-right: auto;
+    margin-left : auto;
+    margin-bottom : 20px
+}
+
+.accueil blockquote p {
+    text-align:center;
+	margin-bottom : 15px
+}
+
 
 .caption{
     text-align: center;
@@ -160,22 +185,6 @@ p {
         height: 100%;
         width: 100%
     }
-}
-
-.infoDuMoment {
-    color: black;
-    text-align:center;
-    font-size:1.5rem;
-    border-style:solid;
-    border-color:#0e00a4;
-    border-width:4px;
-    margin-right: auto;
-    margin-left : auto;
-    margin-bottom : 20px
-}
-
-.infoDuMoment div {
-	margin-bottom : 15px
 }
 
 .navbar-light .navbar-nav .nav-link {
