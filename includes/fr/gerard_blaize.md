@@ -25,11 +25,11 @@ Nantes (44) : salle de Judo-Aïkido au Palais des Sports - Beaulieu
 - Le samedi de 15h00 à 18h00 (à confirmer)
 - Le dimanche de 10h00 à 12h00 et de 15h00 à 17h00 (à confirmer)
 
-### Juin 2026
+### Du 14 Mai 2026 au 17 Mai 2026
 [Paris](https://www.aiatj.com/tiki-index.php?page=Stage+international+sous+la+direction+de+G%C3%A9rard+Blaize) (75) : Gymnase Louis Lumière - 30 rue Louis Lumière - 75020 PARIS ; Métro : Porte de Bagnolet
 
 ### Juin 2026 - Stage enseignants
 [Paris](https://www.aiatj.com/tiki-index.php?page=Stage+international+sous+la+direction+de+G%C3%A9rard+Blaize) (75) : Gymnase Louis Lumière - 30 rue Louis Lumière - 75020 PARIS ; Métro : Porte de Bagnolet
 
-### Juillet 2026
+### Du 4 juillet au 11 juillet 2026
 [Lannion](https://www.aiatj.com/tiki-index.php?page=Stage+%C3%A0+Lannion+-+C%C3%B4tes+d%27Armor) (22) : Dojo de l'ASPTT - Stade Michel Condom - chemin de l'ASPTT

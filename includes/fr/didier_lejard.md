@@ -28,10 +28,12 @@ Blain (44) - complexe Noël Gérard - rue René Giraud - 44130 Blain
 Héraklion (Crète)
 - Pour plus d'informations, contacter Nikos Ilaridis : info@aikido-heraklion.gr
 
-### Juin 2026
+### 6 et 7 juin 2026
 Stage de fin de saison
 
 Nantes (44) - salle de Judo-Aïkido au Palais des Sports - Beaulieu.
+- Le samedi de 16h00 à 19h00
+- Le dimanche de 10h00 à 12h00 et de 15h00 à 17h00
 
 ### Yudansha Geiko
 Entraînement ceintures noires & 1er kyu
