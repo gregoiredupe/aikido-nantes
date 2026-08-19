@@ -45,17 +45,17 @@
 					<li><a class="nav-link" href="#contact"><%= contact %></a></li>
 					<li><a class="nav-link" href="#horaires"><%= horaires_et_lieux %></a></li>
 					<li><a class="nav-link" href="#inscription"><%= inscription %></a></li>
-					<li><a class="nav-link" href="#formulaire"><%= formulaire %></a></li>
-					<li><a class="nav-link" href="#esprit"><%= esprit %></a></li>
 					<li><a class="nav-link" href="#aikido"><%= aikido %></a></li>
 					<li><a class="nav-link" href="#enseignant"><%= enseignant %></a></li>
+					<li><a class="nav-link" href="#esprit"><%= esprit %></a></li>
 					<li><a class="nav-link" href="#calendar"><%= calendrier %></a></li>
+					<!--
 					<li><a class="nav-link"><label for="lang-select">Langue :</label>
 						<select id="lang-select">
 							<option value="fr">🇫🇷 Français</option>
-							<option value="en">🇬🇧 English</option>
 						</select></a>
 					</li>
+					-->
 				</ul>
 			</div>
 		</div>
@@ -73,6 +73,15 @@
 				<ul class="list-inline intro-social-buttons">
 					<li><a href="https://www.facebook.com/nantesaikido" class="btn btn-default btn-light"> <i class="fab fa-facebook-f"></i>
 						<span class="network-name">Facebook</span>
+					</a></li>
+					<li><a href="https://www.instagram.com/aikido_nantes/" class="btn btn-default btn-light"> <i class="fab"></i>
+						<span class="network-name">Instagram</span>
+					</a></li>
+					<li><a href="https://www.oms-nantes.fr/annuaire/aikido-nantes-yama-biko-no-michi-2/" class="btn btn-default btn-light"> <i class="fab"></i>
+						<span class="network-name">OMS</span>
+					</a></li>
+					<li><a href="<https://metropole.nantes.fr/mes-services-mon-quotidien/espace-associations-nantaises/annuaire-des-associations-nantaises/aikido-nantes-yama-biko-no-michi>" class="btn btn-default btn-light"> <i class="fab"></i>
+						<span class="network-name">Nantes Métropole</span>
 					</a></li>
 				</ul>
 			</div>
@@ -107,11 +116,6 @@
 					<hr class="section-heading-spacer">
 					<div class="clearfix"></div>
 @@include('inscriptions.html')
-					<a id="formulaire"></a>
-					<h1 class="section-heading"><%= formulaire %></h1>
-					<hr class="section-heading-spacer">
-					<div class="clearfix"></div>
-@@include('formulaires.html')
 				</div>
 				<div class="col-lg-6 order-lg-1">
 					<img class="img-responsive" src="<%= base_path %>/img/osensei_inscrip.png" alt="" style="width:100%">
@@ -120,27 +124,8 @@
 		</div>
 	</div>
 
-	<a id="esprit"></a>
-	<div class="content-section-a">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 order-lg-1">
-					<h1 class="section-heading">l'esprit du club</h1>
-					<hr class="section-heading-spacer">
-					<div class="clearfix"></div>
-@@include('esprit_du_club.html')
-				</div>
-				<div class="col-lg-6 order-lg-2" id="esprit-illustration">
-					<!--
-					<img class="img-responsive" src="img/calligraphie-aikido.png" style="height:100%" alt="">
-					-->
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<a id="aikido"></a>
-	<div class="content-section-b">
+	<div class="content-section-a">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 order-lg-2">
@@ -157,7 +142,7 @@
 	</div>
 
 	<a id="enseignant"></a>
-	<div class="content-section-a">
+	<div class="content-section-b">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 order-lg-1">
@@ -178,6 +163,25 @@
 						<img class="img-responsive" src="<%= base_path %>/img/didier_et_sensei.jpg" alt="" style="width:100%">
 						<p class="caption"><%= dlj_et_hikitsuchi %></p>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<a id="esprit"></a>
+	<div class="content-section-a">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 order-lg-1">
+					<h1 class="section-heading"><%= esprit_du_club %></h1>
+					<hr class="section-heading-spacer">
+					<div class="clearfix"></div>
+@@include('esprit_du_club.html')
+				</div>
+				<div class="col-lg-6 order-lg-2" id="esprit-illustration">
+					<!--
+					<img class="img-responsive" src="img/calligraphie-aikido.png" style="height:100%" alt="">
+					-->
 				</div>
 			</div>
 		</div>

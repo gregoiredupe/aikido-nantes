@@ -1,3 +1,25 @@
-Aïkido-Nantes tient à maintenir un enseignement dans l'esprit des Dojos traditionnels d'Aïkido, essentiel pour pénétrer l'âme de la pratique où chaque pratiquants du club, selon son investissement, apporte et reçoit dans une ambiance conviviale et amicale.
+L’association Aïkido-Nantes Yama Biko no Michi à été fondée en septembre 1992 et tient à un enseignement dans l’esprit des dojos traditionnels d’Aïkido avec une pratique et des techniques telles que les a transmises O Sensei Moriheï Ueshiba.
 
-Nous explorons tous ensemble une Pratique de l'Aïkido fidèle à l'enseignement du Fondateur Moriheï UESHIBA (14 décembre 1883 - 26 avril 1969) qui nous a été transmis par Michio HIKITSUCHI senseï, son élève durant près de 40 ans (14 juillet 1923 - 02 février 2004).
+Les élèves de tous niveaux et tous âges s’entraînent donc ensemble. Chacun avance et progresse à son rythme.
+
+Ils partagent, dans une pratique rigoureuse et bienveillante, les techniques qui font que les entraînements sont des moments joyeux d’étude et de pratique.
+
+Les cours sont tous dirigés par le professeur en titre, Didier Lejard, tout au long de l’année.
+
+Aïkido Nantes tient à ce que les entraînements ne s’interrompe pas.
+Si le professeur en titre se trouve dans l’obligation de ne pas être présent, alors le cours est assuré par un élève assistant diplômé fédéral, ou un élève gradé suffisamment expérimenté.
+
+### Assistants
+
+- Benoît Hillion
+- Claude Sudre (*)
+- Franck Augereau (*)
+- Frédérique Chenu (*)
+- Guillermo Aradilla
+- Jean-Luc Guigné
+- Jérôme Rouault (*)
+- Marc Fabert
+- Nicolas Guillou
+- Régine La Roux
+
+(*) Diplômés Brevet Fédéraux FFST

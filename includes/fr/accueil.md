@@ -1,12 +1,7 @@
 # Bienvenue à Aikido-Nantes
 
-> **2025-2026**
->
-> Nos cours reprennent à partir du 1 septembre.
->
-> Inscriptions et réinscriptions sur place
->
-> N'hésitez pas à contacter le professeur Didier LEJARD pour avoir plus d'informations ([06 10 16 26 62](tel:+33610162662)).
+> **La saison 2026-2027 commence le 1er Septembre.**
 
-## 9 entraînements par semaine, ouverts à tous - y compris pendant les vacances scolaires
-### Les inscriptions se font toute l'année à l'issu du ou des cours d'essai.
+## Avec 9 entraînements par semaine de septembre à juin<br/>Et 2 entraînements par semaine en juillet et août
+
+### Pour toute information concernant les inscriptions, veuillez cliquez [ici](#inscription)
