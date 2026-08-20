@@ -2,8 +2,7 @@
 7ème Dan de l'Aïkikaï de Tokyo<br/>
 5ème Dan de Masakatsu Bo-Jutsu
 
-
-### 20, 21 et 22 Mars 2026
+### Mars 2027
 Beauvoir sur Mer (85) - Dojo de la salle Omnisports
 
 <!--

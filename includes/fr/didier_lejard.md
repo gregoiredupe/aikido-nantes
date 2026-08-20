@@ -4,38 +4,30 @@
 6ème Dan de l'Aïkikaï de Tokyo<br/>
 6ème Dan AFATJ
 
-### 25 et 26 Octobre 2025
+### Octobre 2026
 Stage de Rentrée
 
 Nantes (44) - salle de Judo-Aïkido au Palais des Sports - Beaulieu.
 
-- Le samedi de 15h00 à 18h00.
-- Le dimanche de 10h00 à 12h00 et de 15h00 à 17h00.
-
-### 13 et 14 Décembre 2025
+### Décembre 2026
 Stage de Noël
 
 Nantes (44) - salle de Judo-Aïkido au Palais des Sports - Beaulieu.
-- Le samedi de 16h00 à 18h00
-- Le dimanche de 10h00 à 12h00 et de 15h00 à 17h00
 
-### Mai 2026
+### Mai 2027
 Stage organisé par le club d'Aïkido du Pays de Blain
 
 Blain (44) - complexe Noël Gérard - rue René Giraud - 44130 Blain
 
-### Mai 2026
-Héraklion (Crète)
-- Pour plus d'informations, contacter Nikos Ilaridis : info@aikido-heraklion.gr
-
-### 6 et 7 juin 2026
+### Juin 2027
 Stage de fin de saison
 
 Nantes (44) - salle de Judo-Aïkido au Palais des Sports - Beaulieu.
-- Le samedi de 16h00 à 19h00
-- Le dimanche de 10h00 à 12h00 et de 15h00 à 17h00
 
 ### Yudansha Geiko
 Entraînement ceintures noires & 1er kyu
 - dimanche matin
 - date à définir
+
+### Héraklion (Crète)
+- Pour plus d'informations, contacter Nikos Ilaridis : info@aikido-heraklion.gr
