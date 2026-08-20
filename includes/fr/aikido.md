@@ -1,0 +1,1 @@
+L’Aïkido est une pratique d’art martial Japonais créée par le fondateur de l’Aïkido O Sensei Morihei Ueshiba durant la Seconde Guerre Mondiale, dans l’esprit de pratiquer un art martial ayant pour but l’harmonie et la paix.
