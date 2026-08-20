@@ -98,7 +98,15 @@ header.masthead {
 
 .intro-social-buttons{
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.intro-social-buttons li{
+    margin: 1rem;
+}
+
 .copyright {
     text-align: center;
 }
