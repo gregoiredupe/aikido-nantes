@@ -1,4 +1,4 @@
-L’association Aïkido-Nantes Yama Biko no Michi à été fondée en septembre 1992 et tient à un enseignement dans l’esprit des dojos traditionnels d’Aïkido avec une pratique et des techniques telles que les a transmises O Sensei Moriheï Ueshiba.
+L’association Aïkido-Nantes Yama Biko no Michi a été fondée en septembre 1992 et tient à un enseignement dans l’esprit des dojos traditionnels d’Aïkido avec une pratique et des techniques telles que les a transmises O Sensei Moriheï Ueshiba.
 
 Les élèves de tous niveaux et tous âges s’entraînent donc ensemble. Chacun avance et progresse à son rythme.
 
