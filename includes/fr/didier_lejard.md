@@ -34,6 +34,8 @@ Nantes (44) - salle de Judo-Aïkido au Palais des Sports - Beaulieu.
 Entraînements ceintures noires & 1er kyu
 - date à définir
 
+Nantes (44)
+
 ### Héraklion (Crète)
 
 - date à définir
