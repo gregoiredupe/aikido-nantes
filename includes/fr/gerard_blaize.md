@@ -5,7 +5,7 @@
 
 ## Février 2027
 
-date à définir
+- date à définir
 
 Nantes (44) : salle de Judo-Aïkido au Palais des Sports - Beaulieu.
 
