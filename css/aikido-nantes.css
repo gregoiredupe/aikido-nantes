@@ -99,8 +99,10 @@ header.masthead {
 .intro-social-buttons{
     margin-top: 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .intro-social-buttons li{
