@@ -15,7 +15,7 @@ En 1983, il devient assistant de Louis Boileau au dojo de la Montagne Sainte-Gen
 En 1988, il rencontre Maître Gérard Blaize (8ème Dan).
 Cette rencontre est décisive et marque le début d’une relation qui dure encore aujourd’hui.
 
-En 1989, il rencontre Michio Hikitsuchi Senseï (10ème Dan) et participera ensuite à tout la stages que Senseï dirigera à Paris (stages internationaux et stages réservés aux professeurs).
+En 1989, il rencontre Michio Hikitsuchi Senseï (10ème Dan) et participera ensuite à tout les stages que Senseï dirigera à Paris (stages internationaux et stages réservés aux professeurs).
 
 Au cours des années 80, il participe à de nombreux cours et stages régionaux, nationaux et internationaux dirigés par différents maîtres.
 Citons notamment Nobuyoshi Tamura Sensei, Minoru Kanetsuka Sensei, Alain Floquet (Aïkibudo), André Nocquet et des élèves proches de Christian Tissier.
