@@ -116,7 +116,8 @@ small {
     font-style: italic;
 }
 p {
-    text-align: justify;
+    text-align: left;
+	hyphens: auto;
 }
 
 
