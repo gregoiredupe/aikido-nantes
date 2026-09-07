@@ -1,8 +1,9 @@
 L’association Aïkido-Nantes Yama Biko no Michi a été fondée en septembre 1992 et tient à un enseignement dans l’esprit des dojos traditionnels d’Aïkido avec une pratique et des techniques telles que les a transmises O Sensei Moriheï Ueshiba.
 
-Les élèves de tous niveaux et tous âges s’entraînent donc ensemble. Chacun avance et progresse à son rythme.
+Les élèves de tous niveaux (du débutant au gradé) et tous âges (à partir de 10 ans et sans limite d'age) s’entraînent donc ensemble. Chacun avance et progresse à son rythme.
 
 Ils partagent, dans une pratique rigoureuse et bienveillante, les techniques qui font que les entraînements sont des moments joyeux d’étude et de pratique.
+La pratique avec des élèves expérimentés permet au débutant de progresser plus rapidement.
 
 Les cours sont tous dirigés par le professeur en titre, Didier Lejard, tout au long de l’année.
 
