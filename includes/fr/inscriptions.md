@@ -15,4 +15,4 @@ indication à la pratique de l’Aïkido
 - Pour les mineurs une autorisation parentale est également
 nécessaire
 
-Une fois inscrit, vous aurez accès à tout les cours en illimité.
+Une fois inscrit, vous aurez accès à tous les cours en illimité.

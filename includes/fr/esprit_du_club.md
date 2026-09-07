@@ -6,7 +6,7 @@ Ils partagent, dans une pratique rigoureuse et bienveillante, les techniques qui
 
 Les cours sont tous dirigés par le professeur en titre, Didier Lejard, tout au long de l’année.
 
-Aïkido Nantes tient à ce que les entraînements ne s’interrompe pas.
+Aïkido Nantes tient à ce que les entraînements ne s’interrompent pas.
 Si le professeur en titre se trouve dans l’obligation de ne pas être présent, alors le cours est assuré par un élève assistant diplômé fédéral, ou un élève gradé suffisamment expérimenté.
 
 ### Assistants
