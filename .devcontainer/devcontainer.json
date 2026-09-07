@@ -1,0 +1,19 @@
+{
+  "name": "aikido-workspace",
+  "image": "ubuntu:jammy",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "adamvoss.vscode-languagetool",
+        "adamvoss.vscode-languagetool-fr",
+        "shd101wyy.markdown-preview-enhanced",
+        "ltex-plus.vscode-ltex-plus"
+      ],
+      "settings": {
+        
+      }
+    }
+  }
+}

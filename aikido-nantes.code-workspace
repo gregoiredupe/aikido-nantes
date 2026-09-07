@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "workspace",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.DS_Store": true
+    }
+  }
+}
