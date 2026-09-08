@@ -2,21 +2,24 @@ body{
     font-size: 1.2rem;
     font-weight: 350;
 }
+
 h2 {
-  color: #0e00a4;
-  margin-top: -10px;
-  text-align: center
+    color: #0e00a4;
+    font-size: 2.5rem;
+    margin-top: -10px;
+    text-align: center
 }
+
 h3, h4, h5, h6 {
     margin-top: 3rem;
     color: chocolate;
 }
 
-.h2, h2 {
+.h3, h3 {
   font-size: 1.75rem;
 }
 
-.h3, h3 {
+.h4, h4 {
   font-size: 1.25rem;
 }
 
@@ -132,6 +135,7 @@ p {
     font-size: 1.7rem;
     color: chocolate;
     margin-bottom: 2rem;
+    margin-top: -10px;
 }
 
 .accueil h2{
@@ -139,6 +143,7 @@ p {
     font-size: 1.5rem;
     color: chocolate;
     margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 
 .accueil h3{
@@ -180,8 +185,8 @@ p {
 }
 
 @media screen and (min-width: 600px) {
-    h1 {
-        text-align: left
+    h2 {
+        text-align: left;
     }
     .navbar-brand img {
         width: 4rem;
