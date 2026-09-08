@@ -1,4 +1,4 @@
-## De septembre à juin (hors vacances de Noël)
+### De septembre à juin (hors vacances de Noël)
 
 **Palais des Sports de Beaulieu** (salle Aïkido-Judo)<br/>
 3 rue Tardieu, 44200 Nantes
@@ -19,7 +19,7 @@
 - mercredi : 18h30 - 20h00
 - vendredi : 20h30 - 22h00
 
-## En juillet et août
+### En juillet et août
 
 **Palais des Sports de Beaulieu** (salle Aïkido-Judo)<br/>
 3 rue Tardieu, 44200 Nantes

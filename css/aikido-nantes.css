@@ -2,12 +2,12 @@ body{
     font-size: 1.2rem;
     font-weight: 350;
 }
- h1 {
+h2 {
   color: #0e00a4;
   margin-top: -10px;
   text-align: center
 }
-h3, h2, h5, h6 {
+h3, h4, h5, h6 {
     margin-top: 3rem;
     color: chocolate;
 }
@@ -165,7 +165,6 @@ p {
 	margin-bottom : 15px
 }
 
-
 .caption{
     text-align: center;
     font-style: italic;   
@@ -203,6 +202,6 @@ p {
 	color: #42424B;
 }
 
-h2 a {
+h3 a {
 	color: chocolate
 }

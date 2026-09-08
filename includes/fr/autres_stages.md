@@ -1,8 +1,8 @@
-## Stage dirigé par Mitsuo Tasaka
+### Stage dirigé par Mitsuo Tasaka
 7ème Dan de l'Aïkikaï de Tokyo<br/>
 5ème Dan de Masakatsu Bo-Jutsu
 
-### Mars 2027
+#### Mars 2027
 Beauvoir sur Mer (85) - Dojo de la salle Omnisports
 
 <!--
