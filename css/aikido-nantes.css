@@ -210,3 +210,18 @@ p {
 h3 a {
 	color: chocolate
 }
+
+thead{
+  border-bottom-style: solid;
+  border-width: 1px
+}
+
+td, th {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-width: 1px
+}
+
+th {
+    text-align: center;
+}
