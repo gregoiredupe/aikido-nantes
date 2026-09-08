@@ -4,7 +4,7 @@ professeur.
 Nous vous invitons à venir participer à un (ou deux) cour(s) d’essai
 gratuit(s) de votre choix. Voir les horaires [ici](#horaires)
 
-Pour le cours d'essai, vous pouvez venir avec un kimono de judo, si vous en possédez un, sinon venez en vêtement de sport confortable un vêtement de sport confortable (par exemple : jogging et t-shirt).
+Pour le cours d'essai, vous pouvez venir avec un kimono de judo, si vous en possédez un, sinon venez en vêtement de sport confortable (par exemple : jogging et t-shirt).
 
 Afin de valider votre inscription, il vous sera demandé:
 - De compléter une fiche d’inscription (remise par le professeur à
