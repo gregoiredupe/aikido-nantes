@@ -5,24 +5,122 @@
 <link rel="alternate" hreflang="fr" href="/" />
 <link rel="alternate" hreflang="en" href="/en/" />
 <link rel="alternate" hreflang="x-default" href="/" />
-<link href="<%= base_path %>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="<%= base_path %>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link href="<%= base_path %>/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-<link href="<%= base_path %>/css/aikido-nantes.css" rel="stylesheet">
 <link rel="icon" type="image/png" href="<%= base_path %>/img/logo-aikido-nantes.png">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="">
+<meta name="author" content="<%= titre %>">
 <meta name="Description" lang="<%= lang %>" content="<%= meta_description %>">
 <meta name="keywords" lang="<%= lang %>" content="<%= meta_keywords %>">
 <meta name="revisit-after" content="15 days">
 <meta name="robots" content="index,follow">
+<!-- Open Graph -->
+<meta property="og:locale" content="<%= lang %>">
+<meta property="og:type" content="website">
+<meta property="og:title" content="<%= titre %>">
+<meta property="og:description" content="<%= meta_description %>">
+<meta property="og:url" content="<%= root_url %>">
+<meta property="og:site_name" content="<%= titre %>">
+<meta property="og:image" content="<%= root_url %>img/logo-aikido-nantes.png">
+<meta property="og:image:alt" content="<%= titre %>">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<%= titre %>">
+<meta name="twitter:description" content="<%= meta_description %>">
+<meta name="twitter:image" content="<%= root_url %>img/logo-aikido-nantes.png">
+<meta name="twitter:image:alt" content="<%= titre %>">
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@graph": [
+	{
+		"@context": "https://schema.org",
+		"@type": "SportsOrganization",
+		"@id": "<%= root_url %>#organization",
+		"name": "<%= titre %>",
+		"alternateName": "<%= tire_court %>",
+		"url": "<%= root_url %>",
+		"sport": "Aïkido",
+		"description": "<%= meta_description %>",
+		"foundingDate": "<%= date_de_fondation %>",
+		"areaServed": {
+			"@type": "City",
+			"name": "Nantes"
+		},
+		"sameAs": [
+			"https://www.facebook.com/nantesaikido",
+			"https://www.instagram.com/aikido_nantes/"
+		],
+		"employee": {
+			"@id": "https://www.aikido-nantes.org/#enseignant"
+		},
+		"location": [
+			{
+				"@id": "https://www.aikido-nantes.org/#beaulieu"
+			},
+			{
+				"@id": "https://www.aikido-nantes.org/#raspail"
+			},
+			{
+				"@id": "https://www.aikido-nantes.org/#noe-lambert"
+			}
+		]
+    },
+	{
+		"@type": "Person",
+		"@id": "<%= root_url %>#enseignant",
+		"name": "<%= employee_name %>",
+		"jobTitle": "<%= employee_jobTitle %>",
+		"description": "<%= employee_description %>",
+		"knowsAbout": [<%= employee_knowsAbout %>]
+	},
+	{
+		"@type": "Place",
+		"@id": "<%= root_url %>#beaulieu",
+		"name": "Palais des Sports de Beaulieu – Salle Aïkido-Judo",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "3 rue Tardieu",
+			"postalCode": "44200",
+			"addressLocality": "Nantes",
+			"addressCountry": "FR"
+		}
+	},
+	{
+		"@type": "Place",
+		"@id": "<%= root_url %>#raspail",
+		"name": "Complexe Christianne Moreau – Salle Raspail",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "7 rue Raspail",
+			"postalCode": "44100",
+			"addressLocality": "Nantes",
+			"addressCountry": "FR"
+		}
+	},
+	{
+		"@type": "Place",
+		"@id": "<%= root_url %>#noe-lambert",
+		"name": "Complexe sportif Noë Lambert – Salle de judo",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "42 boulevard des Poilus",
+			"postalCode": "44300",
+			"addressLocality": "Nantes",
+			"addressCountry": "FR"
+		}
+	}
+}
+</script>
+<link href="<%= base_path %>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="<%= base_path %>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link href="<%= base_path %>/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/css/ol.css" type="text/css">
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList"></script>
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/build/ol.js"></script>
-<title>Aikido-Nantes Yama Biko No Michi</title>
+<link href="<%= base_path %>/css/aikido-nantes.css" rel="stylesheet">
+<title><%= titre %></title>
 
 </head>
 
