@@ -1,22 +1,29 @@
-### Planning des cours
-#### De septembre à juin (hors vacances de Noël)
+### De septembre à juin (hors vacances de Noël)
 
-| Lundi |Mardi | Mercredi | Jeudi | Vendredi | Samedi |
-|-------|------|----------|-------|----------|--------|
-|Palais des Sports de Beaulieu<br/>12h15 - 13h30/45 | Palais des Sports de Beaulieu<br/>12h15 - 13h30/45 | | Palais des Sports de Beaulieu<br/>12h15 - 13h30/45 | Palais des Sports de Beaulieu<br/>12h15 - 13h30/45| |
-| | | | | | Complexe Sportif Christianne Moreau - 13h00 - 15h00 |
-| | | Complexe Sportif Noë Lambert<br/>18h30 - 20h00| | | |
-| Complexe Sportif Christianne Moreau<br/>19h00 - 21h45 (*) | Complexe Sportif Noë Lambert<br/> 20h00 - 22h00| | | Complexe Sportif Noë Lambert<br/>20h30 - 22h00| |
+**Palais des Sports de Beaulieu** (salle Aïkido-Judo)<br/>
+3 rue Tardieu, 44200 Nantes
 
-(*) pratique du sabre et bâton de 19h00 à 19h45
+- lundi, mardi, jeudi et vendredi : 12h15 - 13h30/45
 
-#### Juillet - Août
+**Complexe Christianne Moreau** (salle Raspail)<br/>
+7 rue Raspail, 44100 Nantes
 
-| Lundi |Mardi | Mercredi | Jeudi | Vendredi | Samedi |
-|-------|------|----------|-------|----------|--------|
-|Palais des Sports de Beaulieu<br/>12h15 - 13h30/45 | Palais des Sports de Beaulieu<br/>12h15 - 13h30/45 | | Palais des Sports de Beaulieu<br/>12h15 - 13h30/45 | Palais des Sports de Beaulieu<br/>12h15 - 13h30/45| |
-| | | | | | Complexe Sportif Christianne Moreau - 13h00 - 15h00 |
-| | | Complexe Sportif Noë Lambert<br/>18h30 - 20h00| | | |
-| Complexe Sportif Christianne Moreau<br/>19h00 - 21h45 (*) | Complexe Sportif Noë Lambert<br/> 20h00 - 22h00| | | Complexe Sportif Noë Lambert<br/>20h30 - 22h00| &nbsp; |
+- lundi : 19h00 - 21h45 (pratique du sabre et bâton de 19h00 à
+19h45)
+- samedi : 13h00 - 15h00
+
+**Complexe Sportif Noë Lambert** (salle de judo)<br/>
+42 bd des Poilus, 44300 Nantes
+
+- mardi : 20h00 - 22h00
+- mercredi : 18h30 - 20h00
+- vendredi : 20h30 - 22h00
+
+### En juillet et août
+
+**Palais des Sports de Beaulieu** (salle Aïkido-Judo)<br/>
+3 rue Tardieu, 44200 Nantes
+
+- mardi et jeudi : 18h30 - 20h30
 
 [Version PDF du planning](./docs/Aikido-Planning des Cours.pdf)
