@@ -52,17 +52,17 @@
 			"https://www.instagram.com/aikido_nantes/"
 		],
 		"employee": {
-			"@id": "https://www.aikido-nantes.org/#enseignant"
+			"@id": "<%= root_url %>#enseignant"
 		},
 		"location": [
 			{
-				"@id": "https://www.aikido-nantes.org/#beaulieu"
+				"@id": "<%= root_url %>#beaulieu"
 			},
 			{
-				"@id": "https://www.aikido-nantes.org/#raspail"
+				"@id": "<%= root_url %>#raspail"
 			},
 			{
-				"@id": "https://www.aikido-nantes.org/#noe-lambert"
+				"@id": "<%= root_url %>#noe-lambert"
 			}
 		]
     },
@@ -133,8 +133,8 @@
 						<img src="./img/yamabikonomichi-modifContraste-64x64.png" alt="Logo">
 				</span>
 				<span>
-						<div>Aikido-Nantes</div>
-						<div style="font-size:1rem">Yama Biko No Michi</div>
+						<div><%= tire_court %></div>
+						<div style="font-size:1rem"><%= titre_suffix %></div>
 				</span>
 			</div>
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
