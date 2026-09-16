@@ -1,19 +1,27 @@
 ### Stages dirigés par Didier Lejard
 6ème Dan de l'Aïkikaï de Tokyo
 
-#### Octobre 2026
+#### 17 et 18 Octobre 2026
 
-Stage de Rentrée
-- date à définir
+Stage de Rentrée 
+
+Professeur invité Daniel Champeimont - 7e Dan Aïkikaï de Tokyo
 
 Nantes (44) - salle de Judo-Aïkido au Palais des Sports - Beaulieu.
 
-#### Décembre 2026
+- Samedi : de 17h00 (ou 18h00) à 20h00 (ou 21h00)
+- Dimanche : de 10h00 à 13h00
+
+#### 12 et 13 Décembre 2026
 
 Stage de Noël
-- date à définir
 
 Nantes (44) - salle de Judo-Aïkido au Palais des Sports - Beaulieu.
+
+- Samedi : de 17h00 (ou 18h00) à 20h00 (ou 21h00)
+- Dimanche : de 10h00 à 13h00
+
+À l’occasion de ce stage, nous fêterons les 50 ans de pratique ininterrompue d’aïkido de Didier et sa rencontre enfant avec l’aïkido il y a 60 ans. 
 
 ####  Mai 2027
 
