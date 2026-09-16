@@ -5,7 +5,7 @@
 
 Stage de Rentrée 
 
-Professeur invité Daniel Champeimont - 7e Dan Aïkikaï de Tokyo
+Professeur invité [Daniel Champeimont](https://www.aikidojodobures.fr/w/index.php?title=Le_professeur) - 7e Dan Aïkikaï de Tokyo
 
 Nantes (44) - salle de Judo-Aïkido au Palais des Sports - Beaulieu.
 
